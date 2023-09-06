@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aneesha Portfolio website</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const navToggle = document.getElementById('nav-toggle');
+      const navMenu = document.getElementById('nav-menu');
+
+      navToggle.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+      });
+    });
+  </script>
+</head>
+
+<body>
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="index.html" class="nav__logo">Aneesha B Soman</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="about.html" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="skills.html" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="education.html" class="nav__link">Education</a></li>
+                <li class="nav__item"><a href="experience.html" class="nav__link">Experience</a></li>
+                <li class="nav__item"><a href="NLP.html" class="nav__link">NLP</a></li>
+                <li class="nav__item"><a href="market_analytics.html" class="nav__link">Market Analytics</a></li>
+                <li class="nav__item"><a href="devops.html" class="nav__link">Azure and AWS</a></li>
+                <li class="nav__item"><a href="certification.html" class="nav__link">Certification</a></li>
+            </ul>
+            </div>
+          </div>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-menu'></i>
+          </div>
+
+    </nav>
+  </header>
+
+  <h2>Work Experience</h2>
+  <div class="experience">
+    
+    <a class="work__img">
+      <img src="assets/img/about4.jpg" alt="hello">
+
+      <h2>Quation Solutions Pvt Ltd</h2>
+      <p>04/23 – Currently here</p>
+      <ul>
+
+        <div>
+          <h2>Project:Deepsy</h2>
+          <li><b>1.NLP</b>1.Backend Development of NLP product for a Legal client.</li>
+          <p>Make APIs for apps for the client to work internally and APIs to work with their partners</p>
+          <li><b>2.Client communication</b>Developed the backend APIs as per the requirement of the client</li>
+          <p><b>3.Product details</b>The name of the product is Deepsy which can be accessed here</p><a href="https://deepsy.in/">DEEPSY</a>
+          <li><b>4.Handling the docker containers</b>Worked in setting up the docker container to work on the AWS ec2 VM for development</li>
+          <li><b>5.Tools used</b>Worked with Open AI API,Postgres Database, SQL Alchemy,Fastapi,SMTP,AWS S3 bucket,os and shutil,github,tiktoken</li>
+          <li><b>6.Text Preprocessing and Session management using Lang chains</b></li>
+          <li><b>7.Internal apps</b>Various internal apps created using streamlit</li>
+        </div>
+
+        <div>
+          <h2>Project:Tipsy Tom</h2>
+          <li><b>1.NLP</b>1.Backend Development of NLP product for a Legal client.</li>
+          <p>Build some APIs for the backend of the Tipsy Tom</p>
+          <p><b>2.Product details</b>The name of the product is Tipsy Tom which can be accessed here</p><a href="https://tipsytom.com/app">Tipsy Tom</a>
+          <li><b>3.Tools used</b>Worked with Postgres Database, SQL Alchemy,Fastapi,SMTP,AWS S3 bucket,os and shutil</li>
+          <li><b>4.Dashboard buidling</b>The dashboard for analysing the website along with its metrics was created in Streamlit</li>
+        </div>
+          
+      </ul>
+  </a>
+  </div>
+
+  <br>
+  <br>
+  <br>
+
+  <div class="experience">
+    <a class="work__img">
+      <img src="assets/img/work2.jpg" alt="hello">
+
+      <h2> Convergytics Solutions</h2>
+      <p>03/22 – 03/23</p>
+      <ul>
+        <div>
+          <h2>Project:Contract Reader</h2>
+          <li><b>1.NLP</b>1.Backend Development of NLP product for sentence semantic mapping</li>
+          <p>Make APIs for apps for the client </p>
+          <li><b>2.Tools used</b>Worked with senetence embedding,Postgres Database, SQL Alchemy,Fastapi,os and shutil,pandoc</li>
+          <li><b>3.Text Preprocessing</b></li>
+          <li><b>4.Internal apps</b>Various internal apps created using streamlit</li>
+        </div>
+        <div>
+          <h2>Project:Price Analytics</h2>
+          <li><b>Price optimization</b>1.Backend Development of optimization of price for retail</li>
+          <li>Developed the economics and customer value part of the product using various concepts of economics and ML models</li>
+        </div>
+
+        <div>
+          <h2>Project:label Reader-OCR</h2>
+          <li><b>OCR reading using tesseract, </b>Developed the OCR product which inputs image and gives an output as a table with the details in each product packaging</li>
+          <li>Developed the frontend through streamlit and the backend using python,image cleaning, text cleaning and tesseract</li>
+        </div>
+          
+          
+      </ul>
+  </a>
+  </div>
+
+
+  
+  <br>
+  <br>
+  <br>
+
+
+  <div class="experience">
+    <a class="work__img">
+      <img src="assets/img/work3.jpg" alt="hello">
+
+      <h2>Fliprobo</h2>
+      <ul>
+         <h3>Various projects done of Classification projects which includes</h3>
+         <li>1.Census Income detection</li>
+         <li>2.Customer churn analysis</li>
+         <li>3.HR analytics</li>
+         <li>4.Insurance claim fraud detection</li>
+         <li>5.Loan application acceptance model</li>
+         <li>6.Mushroom Project</li>
+         <li>7.RedWine quality</li>
+      </ul>
+
+      <ul>
+        <h3>Various projects done of Regression projects which includes</h3>
+        <li>1.Advertisement Sales Prediction</li>
+        <li>2.Baseball wins</li>
+        <li>3.Big data mart sales prediction models</li>
+        <li>4.Flight Price Prediction</li>
+        <li>5.Global power sector Prices</li>
+        <li>6.Titanic model</li>
+        <li>7.Avocado Prices</li>
+     </ul>
+      
+  </a>
+  </div>
+
+
+ <!--===== FOOTER =====-->
+ <footer class="footer">
+  <p class="footer__title">Aneesha B Soman</p>
+  <p><a href="contact.html" class="contact-icon">Contact Details</a></p>
+  <br>
+  <div class="footer__social">   
+      <a href="https://www.linkedin.com/in/aneesha-b-soman-05540968/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+      <a href="https://www.instagram.com/dusky_anee/" class="home__social-icon"><i class="bx bxl-instagram"></i></a>
+      <a href="https://medium.com/@aneesha161994" class="home__social-icon"><i class="bx bxl-medium"></i></a>
+      <a href="https://github.com/AneeshaBSoman?tab=repositories" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+     
+  </div>
+  <p class="footer__copy">&#169;  All rigths reserved</p>
+</footer>
+
+
+<!--===== SCROLL REVEAL =====-->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!--===== MAIN JS =====-->
+<script src="assets/js/main.js"></script>
+</body>
+</html>

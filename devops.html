@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aneesha Portfolio website</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const navToggle = document.getElementById('nav-toggle');
+      const navMenu = document.getElementById('nav-menu');
+
+      navToggle.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+      });
+    });
+  </script>
+</head>
+<body>
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="index.html" class="nav__logo">Aneesha B Soman</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                  <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                  <li class="nav__item"><a href="about.html" class="nav__link">About Me</a></li>
+                  <li class="nav__item"><a href="skills.html" class="nav__link">Skills</a></li>
+                  <li class="nav__item"><a href="education.html" class="nav__link">Education</a></li>
+                  <li class="nav__item"><a href="experience.html" class="nav__link">Experience</a></li>
+                  <li class="nav__item"><a href="NLP.html" class="nav__link">NLP</a></li>
+                  <li class="nav__item"><a href="market_analytics.html" class="nav__link">Market Analytics</a></li>
+                  <li class="nav__item"><a href="devops.html" class="nav__link">Azure and AWS</a></li>
+                  <li class="nav__item"><a href="certification.html" class="nav__link">Certification</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+</body>
+
+
+<main>
+    <div class="education-body">
+  
+    
+    <div class="transformers">
+  
+  
+      <div class="transformers-item">
+        <a href="azure.html" target="_blank">
+            <img src="assets/img/azure.png" alt="transformers_1" width="400" height="400">
+          
+      </a>
+        
+        <b>
+        <p class="clustering_text">Microsoft Azure</p>
+        <p class="clustering_text">While working in Convergytics, I worked with Azure VM, creating dockers inside these VMs</p>
+        <p class="clustering_text">Further I have high expertise in <b>Azure ML</b> as you can see in my articles and projects</p>
+        <p class="clustering_text">Further I have high expertise in <b>Azure Databricks</b> as well.</p>
+        </b>
+      </div>
+  
+  
+      <div class="transformers-item1">
+        <a href="" target="_blank">
+          <img src="assets/img/aws.png" alt="transformers_1" width="200" height="200">
+      </a>
+        
+        <b>
+          <p class="clustering_text">Amazon AWS</p>
+          <p class="clustering_text">In Quation have worked with Amazon AWS, EC2 instance as well as S3 buckets.</p>
+      </div>
+  
+      
+    </div>
+  </div>
+  
+  </main>

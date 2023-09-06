@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aneesha Portfolio website</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const navToggle = document.getElementById('nav-toggle');
+      const navMenu = document.getElementById('nav-menu');
+
+      navToggle.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <header class="l-header">
+      <nav class="nav bd-grid">
+          <div>
+              <a href="index.html" class="nav__logo">Aneesha B Soman</a>
+          </div>
+          <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="about.html" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="skills.html" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="education.html" class="nav__link">Education</a></li>
+                <li class="nav__item"><a href="experience.html" class="nav__link">Experience</a></li>
+                <li class="nav__item"><a href="NLP.html" class="nav__link">NLP</a></li>
+                <li class="nav__item"><a href="market_analytics.html" class="nav__link">Market Analytics</a></li>
+                <li class="nav__item"><a href="devops.html" class="nav__link">Azure and AWS</a></li>
+                <li class="nav__item"><a href="certification.html" class="nav__link">Certification</a></li>
+              </ul>
+          </div>
+          <div class="nav__toggle" id="nav-toggle">
+              <i class='bx bx-menu'></i>
+          </div>
+      </nav>
+  </header>
+</body>
+
+<main>
+    <!--===== ABOUT =====-->
+    <section class="about section " id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+            <div class="about__img">
+                <img src="assets/img/about2.png" alt="">
+            </div>
+            
+            <div>
+                <h2 class="about__subtitle">I am Aneesha B Soman</h2>
+                <p class="about__text"></p>Hello, and welcome to my Artificial Intelligence professional portfolio! </p>
+                <p class="about__text"></p>I am thrilled to have you here. Allow me to introduce myself:</p>  
+                <p class="about__text"></p>I am a highly motivated and experienced NLP Engineer with a strong product background. </p>  
+                <p class="about__text"></p>With 3 to 6 years of industry experience in NLP products with a Btech Degree and a PG Diploma in Data Science</p>  
+                <p class="about__text"></p>My expertise lies within NLP (Natural Language Processing) with a deep passion for unlocking the potential of language and data, while also working with frontend and Devops </p>  
+                <p class="about__text"></p>Throughout my career, I've had the privilege of working on cutting-edge projects, harnessing the power of NLP to drive innovation and create impactful NLP products</p> 
+               
+                
+            </div>                                   
+        </div>
+    </section>
+
+ <!--===== FOOTER =====-->
+ <footer class="footer">
+  <p class="footer__title">Aneesha B Soman</p>
+  <p><a href="contact.html" class="contact-icon">Contact Details</a></p>
+  <br>
+  <div class="footer__social">   
+      <a href="https://www.linkedin.com/in/aneesha-b-soman-05540968/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+      <a href="https://www.instagram.com/dusky_anee/" class="home__social-icon"><i class="bx bxl-instagram"></i></a>
+      <a href="https://medium.com/@aneesha161994" class="home__social-icon"><i class="bx bxl-medium"></i></a>
+      <a href="https://github.com/AneeshaBSoman?tab=repositories" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+     
+  </div>
+  <p class="footer__copy">&#169;  All rigths reserved</p>
+</footer>
+
+
+<!--===== SCROLL REVEAL =====-->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!--===== MAIN JS =====-->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
